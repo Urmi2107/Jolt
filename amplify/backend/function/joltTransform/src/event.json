@@ -1,0 +1,5 @@
+{
+    "body":"{\"userId\":\"5\",\"firstName\":\"SANDHYA\",\"lastName\":\"MOHANTY\"}",
+    "httpMethod":"POST",
+    "path":"/jolt"
+}

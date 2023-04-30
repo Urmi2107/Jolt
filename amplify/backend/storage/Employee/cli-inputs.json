@@ -1,0 +1,10 @@
+{
+  "resourceName": "Employee",
+  "tableName": "Employee",
+  "partitionKey": {
+    "fieldName": "y",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "userId": "id",
+      "firstName": "firstName",
+      "lastName": "lastName",
+      "preferredFullName": "fullName",
+      "salary": "salary",
+      "phoneNumber": "mobileNumber",
+      "emailAddress": "emailAddress",
+      "joiningDate": "doj",
+      "source": "source"
+    }
+  }
+]

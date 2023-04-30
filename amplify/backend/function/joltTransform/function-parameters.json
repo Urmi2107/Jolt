@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "EmployeeTbl": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

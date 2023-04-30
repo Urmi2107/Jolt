@@ -1,0 +1,48 @@
+{
+  "function": {
+    "joltTransform": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ],
+          "category": "storage",
+          "resourceName": "EmployeeTbl"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_joltTransform_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "joltTransform"
+        }
+      ]
+    },
+    "AMPLIFY_function_joltTransform_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "joltTransform"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "Employee": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "EmployeeTbl": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    }
+  }
+}

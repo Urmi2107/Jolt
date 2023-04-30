@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jolt-dev-54510-authRole",
+      "UnauthRoleArn": "arn:aws:iam::001921940467:role/amplify-jolt-dev-54510-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::001921940467:role/amplify-jolt-dev-54510-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-jolt-dev-54510-deployment",
+      "UnauthRoleName": "amplify-jolt-dev-54510-unauthRole",
+      "StackName": "amplify-jolt-dev-54510",
+      "StackId": "arn:aws:cloudformation:ap-south-1:001921940467:stack/amplify-jolt-dev-54510/d36b6900-acc5-11ed-8afb-0a1b669c7636",
+      "AmplifyAppId": "d4s7za07igwdn"
+    },
+    "categories": {
+      "function": {
+        "joltTransform": {
+          "deploymentBucketName": "amplify-jolt-dev-54510-deployment",
+          "s3Key": "amplify-builds/joltTransform-36647a72556d71356567-build.zip"
+        }
+      },
+      "storage": {
+        "Employee": {},
+        "EmployeeTbl": {}
+      }
+    }
+  }
+}
